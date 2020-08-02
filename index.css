@@ -1,0 +1,158 @@
+body {
+  background-color: black;
+}
+/* for hiding */
+a {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+/* for hiding */
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 150px;
+  font-style: italic;
+  text-shadow: 1;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 65px;
+  font-style: italic;
+}
+
+form {
+  color: white;
+  text-align: center;
+  position: relative;
+  display: block;
+  font-size: 40px;
+  font-style: italic;
+}
+
+li {
+  text-align: left;
+  display: block;
+}
+
+ul {
+  padding-inline-start: 50px;
+  padding-bottom: 10px;
+}
+
+.backgroundGuide {
+  color: white;
+  position: absolute;
+  font-style: normal;
+  font-size: 17px;
+  top: 25px;
+  left: 25px;
+}
+
+.js_toDoList {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 25px;
+  position: relative;
+  list-style: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-bottom: 5px white;
+  border-bottom-style: double;
+  border-bottom-width: thick;
+  font-style: normal;
+  line-height: 45px;
+}
+
+.toDo {
+  padding-inline-start: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  font-size: 40px;
+  font-style: italic;
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+  border-width: 6px;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-color: white;
+}
+
+input::placeholder {
+  color: white;
+  font-style: italic;
+  border-color: transparent;
+}
+
+.js_weather {
+  color: white;
+  position: absolute;
+  font-style: normal;
+  font-size: 17px;
+  top: 25px;
+  right: 25px;
+  font-weight: bold;
+}
+
+.toDoGuide {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+  color: red;
+  background-color: white;
+  border-style: hidden;
+  display: contents;
+  font-size: 25px;
+}
+
+.gr_form,
+.greeting {
+  display: none;
+  color: white;
+}
+
+.showing {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.copyright {
+  color: white;
+  position: absolute;
+  font-style: normal;
+  font-size: 15px;
+  position: absolute;
+  text-align: right;
+  bottom: 25px;
+  right: 25px;
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: -1;
+  opacity: 0.45;
+}
+/* overflow: auto; */
