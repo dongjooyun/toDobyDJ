@@ -50,10 +50,6 @@ function showToDo(text) {
 
   ToDoArray.push(toDoObj);
   saveToDo();
-
-  if(liId > 6) {
-    alert("Sorry, there are too many things to do.");
-  }
 }
 
 function handleSubmitToDo(event) {
