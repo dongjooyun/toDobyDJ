@@ -2,10 +2,7 @@ body {
   background-color: black;
 }
 /* for hiding */
-a {
-  display: none;
-}
-
+a,
 footer {
   display: none;
 }
@@ -82,10 +79,8 @@ input {
   cursor: pointer;
   background-color: transparent;
   border-width: 6px;
-  border-top-style: none;
-  border-left-style: none;
-  border-right-style: none;
-  border-color: white;
+  border-bottom-style: solid;
+  border-bottom-color: white;
 }
 
 input::placeholder {
