@@ -79,6 +79,9 @@ input {
   cursor: pointer;
   background-color: transparent;
   border-width: 6px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
   border-bottom-style: solid;
   border-bottom-color: white;
 }
