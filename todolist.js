@@ -75,7 +75,7 @@ function loadToDo() {
 function init() {
   loadToDo();
   td_form.addEventListener("submit", handleSubmitToDo); //eventHandler -> line.51
-  tdGuide.innerText = `Check if you're done!`;
+  tdGuide.innerText = `Check if you're done🔥`;
 }
 
 init();
